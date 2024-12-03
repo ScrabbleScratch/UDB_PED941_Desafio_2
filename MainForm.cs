@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
 
 namespace Grafos
 {
@@ -60,6 +59,7 @@ namespace Grafos
             foreach (var vertex in Grafos.Vertices)
             {
                 Point p = vertex.Value;
+                g.FillEllipse(Brushes.Coral, p.X - 10, p.Y - 10, 20, 20);
                 g.FillEllipse(Brushes.Black, p.X - 5, p.Y - 5, 10, 10);
                 g.DrawString(vertex.Key, DefaultFont, Brushes.Black, p.X + 5, p.Y + 5);
             }
