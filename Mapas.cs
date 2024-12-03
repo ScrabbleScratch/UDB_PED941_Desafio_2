@@ -51,19 +51,21 @@ namespace Grafos
             Tuple.Create("Ahuachapan", "Sonsonate", 53),
             Tuple.Create("Santa Ana", "Sonsonate", 38),
             Tuple.Create("Santa Ana", "Chalatenango", 76),
+            Tuple.Create("Santa Ana", "La Libertad", 70),
             Tuple.Create("Sonsonate", "La Libertad", 38),
             Tuple.Create("La Libertad", "San Salvador", 44),
             Tuple.Create("San Salvador", "Cuscatlan", 55),
             Tuple.Create("San Salvador", "La Paz", 72),
+            Tuple.Create("San Salvador", "Chalatenango", 72),
             Tuple.Create("Cuscatlan", "Cabanas", 39),
-            Tuple.Create("Cuscatlan", "San Vicente", 48),
-            Tuple.Create("Chalatenango", "Cuscatlan", 75),
-            Tuple.Create("Cabanas", "San Vicente", 56),
-            Tuple.Create("San Vicente", "Usulutan", 77),
+            Tuple.Create("Cuscatlan", "San Vicente", 63),
+            Tuple.Create("La Paz", "San Vicente", 48),
+            Tuple.Create("Chalatenango", "Cabanas", 43),
+            Tuple.Create("San Vicente", "San Miguel", 77),
             Tuple.Create("Usulutan", "San Miguel", 57),
             Tuple.Create("San Miguel", "La Union", 54),
             Tuple.Create("San Miguel", "Morazan", 66),
-            Tuple.Create("La Union", "Morazan", 57)
+            Tuple.Create("Usulutan", "La Union", 60)
             };
         }
 
@@ -100,7 +102,7 @@ namespace Grafos
                 Tuple.Create("Quiche", "Baja Verapaz", 42),
                 Tuple.Create("Quiche", "Escuintla", 75),
                 Tuple.Create("Quiche", "Guatemala", 59),
-                Tuple.Create("Baja Verapaz", "El Progreso", 27),
+                Tuple.Create("Quiche", "El Progreso", 27),
                 Tuple.Create("Izabal", "El Progreso", 230),
                 Tuple.Create("El Progreso", "Guatemala", 48)
             };
