@@ -92,7 +92,7 @@ namespace Grafos
             this.groupBox1.Controls.Add(this.txtRecorrido);
             this.groupBox1.Controls.Add(this.btnProfundidad);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(684, 321);
+            this.groupBox1.Location = new System.Drawing.Point(679, 338);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(388, 138);
             this.groupBox1.TabIndex = 5;
